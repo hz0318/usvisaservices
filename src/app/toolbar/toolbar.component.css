@@ -1,0 +1,62 @@
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: darkgreen;
+  /*border-radius: 3px;*/
+  padding: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  flex :1;
+}
+.main-nav {
+  display: flex;
+  color: black;
+  border-radius: 3px;
+  padding: 1em;
+  flex :2
+}
+.main-nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex:5;
+}
+.main-nav li {
+  margin-right: 1em;
+}
+.main-nav > form {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.main-nav input {
+  flex: 1;
+
+}
+.main-nav button {
+  background: white;
+  border: 0;
+  border-radius: 1em;
+  color: orangered;
+  padding: 0 1em;
+  margin-left: .3em;
+}
+@media screen and (max-width: 575px) {
+  .main-nav {
+    flex-direction: column;
+  }
+  .main-nav ul {
+    flex-direction: row; /* Change this to 'column' to stack the links */
+    margin-bottom: 1em;
+  }
+}
