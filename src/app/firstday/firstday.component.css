@@ -22,3 +22,10 @@
   padding: 10px;
   width: 100%;
 }
+img.circle {
+
+  margin-right: 2rem;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+}

@@ -14,6 +14,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {AppRoutingModule} from './routing';
 import { ReservationComponent } from './reservation/reservation.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { AsideComponent } from './aside/aside.component';
+import { HowtoarriveComponent } from './howtoarrive/howtoarrive.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ReviewsComponent } from './reviews/reviews.component';
     ContactUsComponent,
     NavbarComponent,
     ReservationComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    AsideComponent,
+    HowtoarriveComponent
   ],
   imports: [
     BrowserModule,
