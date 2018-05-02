@@ -11,6 +11,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {GalleryComponent} from './gallery/gallery.component';
 import {ContactUsComponent} from './contact-us/contact-us.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import {AppRoutingModule} from './routing';
+import { ReservationComponent } from './reservation/reservation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     FirstdayComponent,
     GalleryComponent,
     ContactUsComponent,
-    NavbarComponent
+    NavbarComponent,
+    ReservationComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatListModule,
     MatIconModule,
     MatTabsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
