@@ -1,5 +1,9 @@
 # Dp
 
+##commit all changes
+git add -A && git commit -m "Your Message"
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
