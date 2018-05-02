@@ -4,13 +4,14 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {HomeComponent} from './home/home.component';
 import {ContactUsComponent} from './contact-us/contact-us.component';
 import {ReservationComponent} from './reservation/reservation.component';
+import {ReviewsComponent} from './reviews/reviews.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: 'arrive', component: ContactUsComponent},
-  {path: 'reviews', component: ContactUsComponent},
+  {path: 'reviews', component: ReviewsComponent},
   {path: 'reservation', component: ReservationComponent},
   // {path: 'map', component: MapComponent},
   // {path: 'overview', component: OverviewComponent},

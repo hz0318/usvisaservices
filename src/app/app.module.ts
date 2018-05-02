@@ -13,6 +13,7 @@ import {ContactUsComponent} from './contact-us/contact-us.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {AppRoutingModule} from './routing';
 import { ReservationComponent } from './reservation/reservation.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ReservationComponent } from './reservation/reservation.component';
     GalleryComponent,
     ContactUsComponent,
     NavbarComponent,
-    ReservationComponent
+    ReservationComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
